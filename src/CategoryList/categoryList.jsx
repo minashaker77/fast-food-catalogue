@@ -17,7 +17,7 @@ const CategoryList = () => {
 
     const renderContent = ()=>{
         if(loading){
-            return <Loading theme="primary" />
+            return <Loading theme="primary"/>
         }
         return (
             <ul className="nav">
