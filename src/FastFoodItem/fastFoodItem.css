@@ -1,5 +1,10 @@
+.card {
+    opacity: 0;
+}
+
 .card__placeholder{
-    height: 280px;
+    height: 160px;
+    /* height: 100vh; */
     animation: image-loading 1s linear infinite alternate;
 }
 

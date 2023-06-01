@@ -41,7 +41,7 @@ function App() {
           <div className="alert alert-warning text-center">
             برای کلیدواژه فوق هیچ آیتمی یافت نشد
           </div>
-          <img className="mx-auto mt-5 d-block" src={notFound} />
+          <img className="mx-auto mt-5 d-block fade-in-horiz" src={notFound} />
         </>
       )
     }
